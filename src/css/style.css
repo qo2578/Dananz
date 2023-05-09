@@ -1,6 +1,10 @@
 @font-face {
   font-family: "Aqum";
   src: url("/src/fonts/Aqum/aqum-2-classic.otf");
+  @font-face {
+    font-family: "Maven Pro";
+    src: url("/src/projects/deniza-project/src/fonts/maven-pro/mavenpro.css");
+  }
 }
 body {
   background-color: #85CDCA;
