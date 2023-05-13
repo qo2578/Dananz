@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"style.css"}AAA;EACE;EACA;EAEA;IACE;IACA;;;AAIJ;EACE;;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;;AAIJ;EACE;EACA;EACA;EACA;;AAGF;EACE","file":"style.css"}
-=======
-{"version":3,"sourceRoot":"","sources":["../scss/style.scss"],"names":[],"mappings":"AAAA;EACE;EACA;;AAGF;EACE;;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;;AAIJ;EACE;EACA;EACA;EACA;;AAGF;EACE","file":"style.css"}
->>>>>>> ddb86b4 (Добавил main переходник)
+{"version":3,"sourceRoot":"","sources":["../scss/style.scss"],"names":[],"mappings":"AAEA;EACI;EACA;EACA;EACA;EACA;;;AAIJ;EACI;EACA","file":"style.css"}
