@@ -1,17 +1,17 @@
-@mixin text($font-family, $font-style, $font-weight, $line-height, $color) {
-    font-family: $font-family;
+@mixin text($font-style, $font-weight, $font-size, $line-height, $color) {
     font-style: $font-style;
     font-weight: $font-weight;
+    font-size: $font-size;
     line-height: $line-height;
     color: $color;
 }
 
-@mixin textPattern{
-    font-family: 'HelveticaNeueCyr';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 140%;
-    color: #FFFFFF;
+// @mixin textPattern{
+//     font-family: 'HelveticaNeueCyr';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 17px;
+//     line-height: 140%;
+//     color: #FFFFFF;
 
-}
+// }
