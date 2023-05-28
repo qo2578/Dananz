@@ -29,16 +29,16 @@ a,a:hover{
     &__logo {
         cursor: pointer;
         position:fixed;
-        z-index:1;
+        z-index:2;
     }
 
     &__nav {
         @include text(normal, 400, 16px, 160%, #333333);
         align-items: center;
-        gap: 74px;
+        gap: 103px;
         position:fixed;
         right:102px;
-        z-index:1;
+        z-index:2;
 
 
 
@@ -63,6 +63,7 @@ a,a:hover{
         }
     }
 
+  
 
 }
 

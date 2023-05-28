@@ -1,34 +1,217 @@
-@import "../fonts/HelveticaNeueCyr/stylesheet.css";
-@import "../fonts/NeueMachina/stylesheet.css";
-@import "../fonts/HelveticaNeueCyr/stylesheet.css";
-@import "../fonts/NeueMachina/stylesheet.css";
-@import "../fonts/HelveticaNeueCyr/stylesheet.css";
-@import "../fonts/NeueMachina/stylesheet.css";
-@import "../fonts/HelveticaNeueCyr/stylesheet.css";
-@import "../fonts/NeueMachina/stylesheet.css";
-@import "../fonts/HelveticaNeueCyr/stylesheet.css";
-@import "../fonts/NeueMachina/stylesheet.css";
-@import "../fonts/HelveticaNeueCyr/stylesheet.css";
-@import "../fonts/NeueMachina/stylesheet.css";
-@import "../fonts/HelveticaNeueCyr/stylesheet.css";
-@import "../fonts/NeueMachina/stylesheet.css";
-@import "../fonts/HelveticaNeueCyr/stylesheet.css";
-@import "../fonts/NeueMachina/stylesheet.css";
-@import "../fonts/HelveticaNeueCyr/stylesheet.css";
-@import "../fonts/NeueMachina/stylesheet.css";
-@import "../fonts/HelveticaNeueCyr/stylesheet.css";
-@import "../fonts/NeueMachina/stylesheet.css";
-@import "../fonts/HelveticaNeueCyr/stylesheet.css";
-@import "../fonts/NeueMachina/stylesheet.css";
+@import "../fonts/Poppins/stylesheet.css";
+@import "../fonts/Poppins/stylesheet.css";
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Manrope", sans-serif;
+  font-family: "Poppins", sans-serif;
   list-style-type: none;
 }
 
 a, a:hover {
   text-decoration: none;
   color: inherit;
+}
+
+.header {
+  margin: 40px 0 97px;
+}
+.header-container {
+  justify-content: space-between;
+  position: relative;
+}
+.header__logo {
+  cursor: pointer;
+  position: fixed;
+  z-index: 1;
+}
+.header__nav {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #333333;
+  align-items: center;
+  gap: 74px;
+  position: fixed;
+  right: 102px;
+  z-index: 1;
+}
+.header__nav .header__links:hover {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333333;
+}
+.header__nav .header__links-btn {
+  width: 142px;
+  height: 49px;
+  padding: 14px 32px;
+  background: #2C3878;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.header__nav .header__links-btn:hover {
+  width: 142px;
+  height: 49px;
+  padding: 14px 32px;
+  background: #2C3878;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.footer-upper {
+  padding: 40px 120px;
+  background: #2C3878;
+  margin-bottom: 80px;
+}
+.footer-upper__right-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-upper__right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-upper__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 170%;
+  color: #FFFFFF;
+}
+.footer-upper__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #D9D9D9;
+}
+.footer-upper__btn {
+  width: 142px;
+  padding: 14px 32px;
+  background: #FFFFFF;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #333333;
+}
+.footer-lower__left {
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-lower__logo {
+  width: 126px;
+  height: 54px;
+}
+.footer-lower__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 170%;
+  color: #333333;
+}
+.footer-lower__right-container {
+  margin-top: 32px;
+}
+.footer-lower__right {
+  margin-left: 205px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer-lower__form-upper {
+  width: 440px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 23px;
+}
+.footer-lower__form-upper h3 {
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #333333;
+}
+.footer-lower__form-lower {
+  width: 440px;
+  position: relative;
+}
+.footer-lower__form-lower img {
+  position: absolute;
+  right: 8px;
+  z-index: 1;
+}
+.footer-lower__form-lower input {
+  position: absolute;
+  width: 100%;
+  padding-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid #141414;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #333333;
+}
+.footer-lower__form-lower input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #D9D9D9;
+}
+.footer-lower__form-lower input:focus {
+  outline: none;
+}
+.footer-lower__social-media {
+  margin: 80px 0 84px 240px;
+}
+.footer-lower__social-media-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #333333;
+  margin-bottom: 11px;
+}
+.footer-lower__social-media-list {
+  display: flex;
+  gap: 25px;
+}
+.footer-lower__social-media-list a div {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #D9D9D9;
+  border: 1px solid #D9D9D9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__title {
+  position: relative;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 140%;
+  color: #333333;
+}
+.home__right {
+  position: absolute;
+}
+.home__experience-block {
+  position: absolute;
 }/*# sourceMappingURL=style.css.map */
