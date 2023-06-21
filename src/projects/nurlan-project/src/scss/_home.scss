@@ -105,6 +105,7 @@
     }
 
     &__title {
+        max-width: 1200px;
         @include text(normal, 600, 36px, 170%, #333333);
         margin-bottom: 60px;
     }
@@ -136,6 +137,7 @@
         }
 
         &-right {
+            width: 223px;
             margin-top: 197px;
             display: flex;
             flex-direction: column;
@@ -332,37 +334,167 @@
     }
 
     &__left-btn {
-        display:inline-block;
+        display: inline-block;
         padding: 14px 32px;
         background: #FFFFFF;
         border: 1px solid #3C3C3C;
-        @include text(normal,500,14px,150%,#333333);
+        @include text(normal, 500, 14px, 150%, #333333);
     }
 
-    &__right{
+    &__right {
         height: 440px;
-        position:relative;
+        position: relative;
         display: flex;
         gap: 40px;
 
 
     }
 
-    &__pics-left{
+    &__pics-left {
         display: flex;
         align-items: flex-end;
     }
 
-    &__pics-right{
+    &__pics-right {
         display: flex;
         flex-direction: column;
         gap: 40px;
         position: absolute;
-        right:0;
+        right: 0;
         top: -59px;
 
-        .material__pic-upper-bottom{
+        .material__pic-upper-bottom {
             width: 195px;
         }
     }
+}
+
+@media screen and (max-width: 1400px) {
+
+    .home {
+
+        &__right {
+            width: 50%;
+            position: absolute;
+            right: 12px;
+            top: 48px;
+            border-top: none;
+            padding-top: 63px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        
+    }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+    .home {
+
+        &__title {
+            font-size: 50px;
+        }
+
+        &__right{
+            display: flex;
+            top: 0;
+        }
+
+        &__experience-block {
+            position: absolute;
+            padding: 15px 23px;
+            background: #2C3878;
+            top: 100px;
+            right: 164px;
+            display: flex;
+            flex-direction: column;
+            gap: 37px;
+        }
+
+        &__projects-number{
+            font-size: 30px;
+        }
+        &__teams-number{
+            font-size: 30px;
+        }
+        &__experience-number{
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .home {
+
+        &__experience-block {
+            position: absolute;
+            right: 0;
+            padding: 20px 28px;
+            background: #2C3878;
+            top: 138px;
+            right: 90px;
+            display: flex;
+            flex-direction: column;
+            gap: 37px;
+
+        }
+    }
+
+    .about {
+        margin-bottom: 160px;
+
+
+        &__main {
+            flex-direction: column;
+            width: 100%;
+            justify-content: space-between;
+            position: relative;
+
+            &-left {
+
+                img {
+                    width: 100%;
+                }
+            }
+
+
+            &-profile {
+                position: absolute;
+                padding: 17px 52px 17px 20px;
+                background: #FFFFFF;
+                top: 1px;
+                right: 1px;
+
+            }
+
+            &-right {
+                width: 100%;
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+
+            }
+        }
+
+
+
+    }
+
+    .service {
+        &__top-layer {
+            position: relative;
+            max-width: 780px;
+            width: 100%;
+            z-index: 1;
+            padding: 0 40px 41px 0;
+            background: #FFFFFF;
+
+
+        }
+    }
+
 }
