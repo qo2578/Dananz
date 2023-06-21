@@ -517,6 +517,124 @@ ul {
   padding: 24px 0 40px;
 }
 
+.contact-us {
+  padding-top: 100px;
+}
+.contact-us__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 140%;
+  /* or 78px */
+  text-align: center;
+  /* Grayscale/Black */
+  color: #000000;
+  padding-bottom: 36px;
+}
+.contact-us__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
+  text-align: center;
+  /* Grayscale/Black */
+  color: #000000;
+  padding-bottom: 57px;
+}
+.contact-form {
+  position: relative;
+}
+.contact-form input[type=text],
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #9C9C9C;
+  background: #FFFFFF;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  resize: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+.contact-form input[type=submit] {
+  position: absolute;
+  right: 46%;
+  top: 110%;
+  background: #2C3878;
+  color: white;
+  padding: 14px 32px;
+  border: 1px solid #3C3C3C;
+  cursor: pointer;
+}
+.contact-visit {
+  padding: 130px 0 100px;
+}
+.contact-visit__line {
+  padding-left: 20px;
+}
+.contact-visit__service {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  /* Grayscale/Black */
+  color: #000000;
+  padding: 100px 0 20px;
+}
+.contact-visit__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 170%;
+  /* or 61px */
+  /* Grayscale/50 */
+  color: #333333;
+}
+.contact-visit__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+  /* Grayscale/10 */
+  color: #9C9C9C;
+}
+.contact-visit__maxtext {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  /* identical to box height, or 34px */
+  /* Grayscale/50 */
+  color: #333333;
+}
+.contact-visit__mintext {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #9C9C9C;
+}
+.contact-visit .row {
+  padding-left: 193px;
+}
+.contact-visit .col-md-6 {
+  padding: 0 60px;
+}
+
 * {
   padding: 0;
   margin: 0;
