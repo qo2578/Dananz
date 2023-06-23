@@ -1,15 +1,22 @@
+<<<<<<< HEAD
 /*# sourceMappingURL=style.css.map */css";
+=======
+@import "../fonts/Poppins/stylesheet.css";
+>>>>>>> Nurlan
 @import "../fonts/Poppins/stylesheet.css";
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+<<<<<<< HEAD
   list-style-type: none;
   scroll-behavior: smooth;
 }
 
 ul {
+=======
+>>>>>>> Nurlan
   list-style-type: none;
 }
 
@@ -207,6 +214,7 @@ a:hover {
   align-items: center;
 }
 
+<<<<<<< HEAD
 * {
   padding: 0;
   margin: 0;
@@ -712,4 +720,19 @@ ul {
 }
 .transitional__bg .row {
   padding: 32px 0;
+=======
+.home__title {
+  position: relative;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 140%;
+  color: #333333;
+}
+.home__right {
+  position: absolute;
+}
+.home__experience-block {
+  position: absolute;
+>>>>>>> Nurlan
 }/*# sourceMappingURL=style.css.map */
